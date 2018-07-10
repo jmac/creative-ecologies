@@ -16,12 +16,12 @@ going_beyond_text: |-
   Arts and culture are generally accepted as public goods, but there is no consensus on how they should be valued. Most of the indicators used to measure creative exertion are economic – numbers of jobs created, tickets sold or contributions to GDP. This captures the monetary value, but what about the other bene ts, like health and wellbeing, community resilience and happiness? Is creative activity merely a means to achieve these goals or an end in itself? What are the unintended consequences of valuing creative activity in monetary terms alone? Creative Ecologies seeks to expand the ways we value creative exertion in our society.
 follow_text: |-
   # Follow Creative Ecologies
-  
+
   Sign-up to get email updates about the project or follow development
   [via Instagram](#)
 about_the_project_text: |-
   # About the project
-  
+
   Creative Ecologies is an initiative of Future Tense, delivered
   in partnership with [Artlands Victoria](#), [RMIT University](#), [Ludowyk Evaluation](#)
   and [Clear](#)
