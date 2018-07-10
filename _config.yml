@@ -21,3 +21,6 @@ defaults:
   values:
     layout: page
 permalink: pretty
+sass:
+  sass_dir: assets/css/
+  style: compressed
