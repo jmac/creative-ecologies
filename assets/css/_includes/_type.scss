@@ -1,50 +1,5 @@
 html {
   font-family: "aktiv-grotesk", Helvetica, Arial, sans-serif;
+  line-height: 1.33;
 }
 
-.bg-rule {
-  width: 100%;
-  font-weight: 400;
-  font-size: 6em;
-  line-height: 1em;
-
-  p {
-    line-height: 1em;
-    color: $green;
-    margin: 0;
-    padding: 0;
-    background: 
-      repeating-linear-gradient(
-        to bottom,
-        $white,
-        $white 0.6em,
-        $green 0.6em,
-        $green 0.64em,
-        $white 0.64em,
-        $white 1em
-      );
-
-    &:after { 
-      content: "."; 
-      visibility: hidden; 
-      display: block; 
-      height: 0; 
-      clear: both;
-   }
-  }
-
-  strong, b {
-    font-weight: 400;
-    background: $white;
-    float: left;
-    display: inline-block;
-  }
-
-  em, i {
-    float: right;
-    display: inline-block;
-    font-style: normal;
-    background: $white;
-    text-align: right;
-  }
-}

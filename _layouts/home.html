@@ -2,18 +2,33 @@
 
 {% include header.html %}
 
-<div class="container centered">
-
-  <div class="flex-grid">
-    <div class="col-two-thirds">
-      <h1 class="bg-rule">
-        {{ content }}
-      </h1>
-      
-    </div>
+<header>
+  <div class="bg-rule top">
+    {{ content }}
   </div>
 
+  <div class="bg-rule bottom">
+    <a href="#">
+      <p>
+        <strong>Add your</strong> <em>view</em>
+      </p>
+    </a>
+  </div>
+</header>
+      
+<div class="block">
+    <div class="column"></div>
 </div>
 
+<div class="block">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+
+<div class="block">
+  <div class="column narrow"></div>
+  <div class="column narrow"></div>
+</div>
 
 {% include footer.html %}
+  

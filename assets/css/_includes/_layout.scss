@@ -1,3 +1,116 @@
 body {
-  margin: 1em;
+  margin: 4vw;
+}
+
+header {
+  min-height: calc(100vh - 8vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top, .bottom {
+    width: 100%;
+  }
+}
+
+.bg-rule {
+  width: 100%;
+  font-weight: 400;
+  font-size: 7.5vw;
+  line-height: 0.9;
+
+  p {
+    line-height: inherit;
+    color: $green;
+    margin: 0;
+    padding: 0;
+    background: 
+      repeating-linear-gradient(
+        to bottom,
+        $white,
+        $white 0.54em,
+        $green 0.54em,
+        $green 0.57em,
+        $white 0.57em,
+        $white 0.9em
+      );
+
+    &:after { 
+      content: "."; 
+      visibility: hidden; 
+      display: block; 
+      height: 0; 
+      clear: both;
+   }
+  }
+
+  a {
+
+    text-decoration: none;
+    border-bottom: none;
+
+    p {
+      color: $black;
+      background: 
+      repeating-linear-gradient(
+        to bottom,
+        $white,
+        $white 0.54em,
+        $black 0.54em,
+        $black 0.57em,
+        $white 0.57em,
+        $white 0.9em
+      );
+    }
+
+    &:hover {
+      p {
+        color: $green;
+        background: 
+        repeating-linear-gradient(
+          to bottom,
+          $white,
+          $white 0.54em,
+          $green 0.54em,
+          $green 0.57em,
+          $white 0.57em,
+          $white 0.9em
+        );
+      }
+    }
+  }
+
+  strong, b {
+    line-height: inherit;
+    font-weight: 400;
+    background: $white;
+    float: left;
+    display: inline-block;
+  }
+
+  em, i {
+    line-height: inherit;
+    float: right;
+    font-weight: 400;
+    display: inline-block;
+    font-style: normal;
+    background: $white;
+    text-align: right;
+  }
+}
+
+.text-block {
+  a {
+    color: $black;
+    text-decoration: none;
+    border-bottom: 1px solid $green;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  p {
+    margin: 0 0 1em;
+  }
 }
