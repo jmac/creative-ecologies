@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ og_meta_description }}"/>
+
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ og_meta_title | default: page_title }}" />
+  <meta property="og:description" content="{{ og_meta_description }}" />
+  <meta property="og:image" content="{{ og_meta_image }}" />
+
+  <link rel="stylesheet" href="/assets/css/ce.css">
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
+</head>
