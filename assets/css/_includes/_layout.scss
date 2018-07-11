@@ -51,12 +51,19 @@ header {
 
   p {
     
-    header & * {
-      opacity: 0;
-    }
+    // header & * {
+    //   opacity: 0;
+    // }
 
     line-height: inherit;
-    color: $green;
+    color: $white;
+
+    &.off-white {
+      color: $green;
+    }
+
+    // transition: all 0.15s ease;
+
     margin: 0;
     padding: 0;
     background: 
@@ -84,7 +91,12 @@ header {
     border-bottom: none;
 
     p {
-      color: $black;
+      color: $white;
+
+      &.off-white {
+        color: $black;
+      }
+
       background: 
       repeating-linear-gradient(
         to bottom,

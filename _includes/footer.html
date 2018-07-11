@@ -14,11 +14,17 @@
 
   <script>
       $(function() {
-        var $lines = $("header .bg-rule p");
+        var $lines = $(".bg-rule p");
 
         $lines.each(function(i) {
-          $(this).children().delay(2000 * (i+1)).animate({ opacity: "100" }, 3000 )
-          console.log(i * 2000);
+          var interval = 2000 + (i*2000);
+          var $this = $(this);
+
+          setTimeout(function() {
+            $this.addClass("off-white");
+            console.log(interval);
+          }, interval);
+
         });
       });
   </script>
