@@ -13,7 +13,7 @@ understanding_text: |-
 going_beyond_text: |-
   # Going beyond economic indicators
 
-  Arts and culture are generally accepted as public goods, but there is no consensus on how they should be valued. Most of the indicators used to measure creative exertion are economic – numbers of jobs created, tickets sold or contributions to GDP. This captures the monetary value, but what about the other bene ts, like health and wellbeing, community resilience and happiness? Is creative activity merely a means to achieve these goals or an end in itself? What are the unintended consequences of valuing creative activity in monetary terms alone? Creative Ecologies seeks to expand the ways we value creative exertion in our society.
+  Arts and culture are generally accepted as public goods, but there is no consensus on how they should be valued. Most of the indicators used to measure creative exertion are economic – numbers of jobs created, tickets sold or contributions to GDP. This captures the monetary value, but what about the other benefits, like health and wellbeing, community resilience and happiness? Is creative activity merely a means to achieve these goals or an end in itself? What are the unintended consequences of valuing creative activity in monetary terms alone? Creative Ecologies seeks to expand the ways we value creative exertion in our society.
 follow_text: |-
   # Follow Creative Ecologies
 
