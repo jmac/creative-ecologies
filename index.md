@@ -26,8 +26,14 @@ about_the_project_text: |-
   in partnership with [Artlands Victoria](#), [RMIT University](#), [Ludowyk Evaluation](#)
   and [Clear](#)
 partners:
-- link: 
-  image: 
+- link: http://futuretense.com.au/
+  image: "/uploads/FutureTense.png"
+- link: https://artlands.com.au/
+  image: "/uploads/Artlands.png"
+- link: https://www.rmit.edu.au/
+  image: "/uploads/RMIT.png"
+- link: http://ludowykevaluation.com/
+  image: "/uploads/Ludowyk.png"
 layout: home
 ---
 
