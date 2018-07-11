@@ -1,34 +1,29 @@
 {% include head.html %}
 
 {% include header.html %}
-
-<header>
-  <div class="bg-rule top">
-    {{ content }}
-  </div>
-
-  <div class="bg-rule bottom">
-    <a href="#">
-      <p>
-        <strong>Add your</strong> <em>view</em>
-      </p>
-    </a>
-  </div>
-</header>
       
-<div class="block">
-    <div class="column"></div>
+<div class="block single-bottom-margin">
+    <div class="column text-block">
+      {{ page.what_this_is_text | markdownify }}
+    </div>
 </div>
 
-<div class="block">
-  <div class="column"></div>
-  <div class="column"></div>
+<div class="block text-block">
+  <div class="column text-block">
+      {{ page.understanding_text | markdownify }}
+  </div>
+  <div class="column text-block">
+      {{ page.going_beyond_text | markdownify }}
+  </div>
 </div>
 
-<div class="block">
-  <div class="column narrow"></div>
-  <div class="column narrow"></div>
+<div class="block double-bottom-margin">
+  <div class="column narrow text-block">
+      {{ page.follow_text | markdownify }}
+  </div>
+  <div class="column narrow text-block">
+      {{ page.about_the_project_text | markdownify }}
+  </div>
 </div>
 
 {% include footer.html %}
-  
