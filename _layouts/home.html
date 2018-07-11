@@ -24,9 +24,12 @@
   <div class="column narrow text-block">
       {{ page.about_the_project_text | markdownify }}
 
-      <div class="partner-block">
+      <div class="partner-block"> 
+
+        {% assign partners = page.partners.size %}
+        {% assign partner_width = 100 | divided_by: partners | round | minus: 3 %}
         {% for partner in page.partners %}
-            <div class="partner">
+            <div class="partner" style="width: {{ partner_width }}%">
               {% if partner.image != nil %}
                 <a href="{{ partner.link }}">
                   <img src="{{ partner.image }}" alt=" " title="Partner" />
