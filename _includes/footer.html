@@ -7,28 +7,7 @@
       </div>
   </footer>
 
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous">
-  </script>
-
-  <script>
-      $(function() {
-        var $lines = $(".bg-rule p");
-
-        $lines.each(function(i) {
-          var interval = 2000 + (i*2000);
-          var $this = $(this);
-
-          setTimeout(function() {
-            $this.addClass("off-white");
-            console.log(interval);
-          }, interval);
-
-        });
-      });
-  </script>
+  {% include javascripts.html %}
 
 </body>
 </html>
