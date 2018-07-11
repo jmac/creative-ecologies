@@ -9,6 +9,10 @@ header {
   justify-content: space-between;
   margin-bottom: 15vw;
 
+  @media (orientation: portrait) {
+    min-height: calc(100vh - 20vw);
+  }
+
   .top, .bottom {
     width: 100%;
   }
@@ -56,8 +60,12 @@ header {
 .bg-rule {
   width: 100%;
   font-weight: 400;
-  font-size: 7.5vw;
+  font-size: 7vw;
   line-height: 0.9;
+
+  @media (min-aspect-ratio: 16/10) {
+    font-size: 10vh;
+  }
 
   p {
     
