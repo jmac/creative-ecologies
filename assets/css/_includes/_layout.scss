@@ -38,9 +38,19 @@ header {
   width: 45vw;
   padding-bottom: 5vw;
 
+  &.narrow {
+    padding-right: 8vw;
+  }
+
   @media (max-width: 600px) {
     width: 100%;
+
+    &.narrow {
+      padding-right: 0;
+    }
   }
+
+  
 }
 
 .bg-rule {
