@@ -18,13 +18,13 @@ follow_text: |-
   # Follow Creative Ecologies
 
   Sign-up to get email updates about the project or follow development
-  [via Instagram](#)
+  [via Instagram](https://www.instagram.com/creativeecologies).
 about_the_project_text: |-
   # About the project
 
   Creative Ecologies is an initiative of Future Tense, delivered
   in partnership with [Artlands Victoria](#), [RMIT University](#), [Ludowyk Evaluation](#)
-  and [Clear](#)
+  and [Clear](#).
 partners:
 - link: http://futuretense.com.au/
   image: "/uploads/FutureTense.png"
