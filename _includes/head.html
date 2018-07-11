@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 <head>
   <title>Creative &mdash; Ecologies</title>
@@ -13,6 +13,8 @@
   <meta property="og:title" content="{{ og_meta_title | default: page_title }}" />
   <meta property="og:description" content="{{ og_meta_description }}" />
   <meta property="og:image" content="{{ og_meta_image }}" />
+
+  {% include favicons.html %}
 
   <link rel="stylesheet" href="https://use.typekit.net/com4iqt.css">
   <link rel="stylesheet" href="/assets/css/ce.css">
