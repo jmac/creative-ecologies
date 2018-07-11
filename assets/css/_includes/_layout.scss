@@ -7,8 +7,38 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 15vw;
 
   .top, .bottom {
+    width: 100%;
+  }
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  &.single-bottom-margin {
+    margin-bottom: 5vw;
+  }
+
+  &.double-bottom-margin {
+    margin-bottom: 10vw;
+  }
+}
+
+.column {
+  width: 45vw;
+  padding-bottom: 5vw;
+
+  @media (max-width: 600px) {
     width: 100%;
   }
 }
@@ -45,7 +75,6 @@ header {
   }
 
   a {
-
     text-decoration: none;
     border-bottom: none;
 
@@ -100,6 +129,18 @@ header {
 }
 
 .text-block {
+
+  font-size: 18px;
+  line-height: inherit;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: $green;
+  }
+
   a {
     color: $black;
     text-decoration: none;
