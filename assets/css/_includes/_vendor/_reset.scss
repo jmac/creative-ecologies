@@ -1,5 +1,7 @@
 html,
 body,
+header,
+footer,
 ul,
 ol,
 li,
@@ -18,7 +20,7 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 fieldset,
@@ -70,4 +72,17 @@ acronym {
 
 a {
   text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
