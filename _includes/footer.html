@@ -7,4 +7,20 @@
     </div>
 </footer>
 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script>
+      $(function() {
+        var $lines = $("header .bg-rule p");
+
+        $lines.each(function(i) {
+          $(this).children().delay(2000 * (i+1)).animate({ opacity: "100" }, 3000 )
+          console.log(i * 2000);
+        });
+      });
+  </script>
+
 </body>

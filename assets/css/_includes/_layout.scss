@@ -50,6 +50,11 @@ header {
   line-height: 0.9;
 
   p {
+    
+    header & * {
+      opacity: 0;
+    }
+
     line-height: inherit;
     color: $green;
     margin: 0;
@@ -144,7 +149,7 @@ header {
   a {
     color: $black;
     text-decoration: none;
-    border-bottom: 1px solid $green;
+    border-bottom: 1px solid $green;  
 
     &:hover {
       color: $green;
