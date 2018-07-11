@@ -34,6 +34,8 @@ partners:
   image: "/uploads/RMIT.png"
 - link: http://ludowykevaluation.com/
   image: "/uploads/Ludowyk.png"
+- link: http://cleardesign.com.au/
+  image: "/uploads/Clear.png"
 layout: home
 ---
 
