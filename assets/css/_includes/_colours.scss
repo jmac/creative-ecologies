@@ -1,3 +1,12 @@
 $white: #ffffff;
 $green: #05F000;
 $black: #000000;
+
+::-moz-selection { 
+  color: $white; 
+  background: $green; 
+}
+::selection { 
+  color: $white;
+  background: $green; 
+}
