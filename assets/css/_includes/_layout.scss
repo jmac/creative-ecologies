@@ -1,5 +1,14 @@
 body {
   margin: 4vw;
+
+  @media (min-aspect-ratio: 16/10) {
+    margin: 4vh;
+  }
+
+  @media (orientation: portrait) {
+    margin: 2vh;
+  }
+
 }
 
 header {
@@ -9,8 +18,12 @@ header {
   justify-content: space-between;
   margin-bottom: 15vw;
 
+  @media (min-aspect-ratio: 16/10) {
+    min-height: 92vh;
+  }
+
   @media (orientation: portrait) {
-    min-height: calc(100vh - 20vw);
+    min-height: 96vh;
   }
 
   .top, .bottom {
@@ -61,10 +74,16 @@ header {
   width: 100%;
   font-weight: 400;
   font-size: 7vw;
-  line-height: 0.9;
+  line-height: 0.9em;
 
   @media (min-aspect-ratio: 16/10) {
     font-size: 10vh;
+  }
+
+  &.bottom {
+    @media (orientation: portrait) {
+      margin-bottom: calc(70px + 2vh);
+    }
   }
 
   p {
@@ -90,18 +109,16 @@ header {
         $white,
         $white 0.54em,
         $green 0.54em,
-        $green 0.57em,
-        $white 0.57em,
+        $green 0.58em,
+        $white 0.58em,
         $white 0.9em
       );
 
-    &:after { 
-      content: "."; 
-      visibility: hidden; 
-      display: block; 
-      height: 0; 
+    &:after {
+      content: "";
+      display: table;
       clear: both;
-   }
+    }
   }
 
   a {
@@ -121,8 +138,8 @@ header {
         $white,
         $white 0.54em,
         $black 0.54em,
-        $black 0.57em,
-        $white 0.57em,
+        $black 0.58em,
+        $white 0.58em,
         $white 0.9em
       );
     }
@@ -136,8 +153,8 @@ header {
           $white,
           $white 0.54em,
           $green 0.54em,
-          $green 0.57em,
-          $white 0.57em,
+          $green 0.58em,
+          $white 0.58em,
           $white 0.9em
         );
       }
@@ -196,20 +213,22 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
+  margin-top: 2vw;
 
   .partner {
     // width: 18%;
 
     a {
       border: none;
-      display: inline-block;
+      // display: inline-block;
 
       img {
         border: none;
         padding: 0;
         margin: 0;
         width: 100%;
-        display: block;
+        height: auto;
+        vertical-align: bottom;
       }
     }
   }
