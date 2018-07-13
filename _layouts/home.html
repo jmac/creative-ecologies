@@ -27,9 +27,14 @@
       <div class="partner-block"> 
 
         {% assign partners = page.partners.size %}
-        {% assign partner_width = 100 | divided_by: partners | round | minus: 4 %}
+        {% assign partner_width = 100 | divided_by: partners | round | minus: partners %}
         {% for partner in page.partners %}
+          {% if forloop.first == true %}
+            <div class="partner" style="width: {{ partner_width | plus: partners | plus: 1 }}%">
+          {% else %}
             <div class="partner" style="width: {{ partner_width }}%">
+          {% endif %}
+            <!-- <div class="partner"> -->
               {% if partner.image != nil %}
                 <a href="{{ partner.link }}">
                   <img src="{{ partner.image }}" alt=" " title="Partner" />

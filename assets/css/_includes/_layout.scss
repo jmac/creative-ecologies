@@ -211,16 +211,28 @@ header {
 .partner-block {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  // align-content: baseline;
   align-items: flex-end;
   width: 100%;
   margin-top: 2vw;
 
   .partner {
     // width: 18%;
+    // padding-right: 5%;
+
+    // &:first-of-type {
+    //   width: 110%;
+    // }
+
+    // &:last-of-type {
+    //   padding-right: 0;
+    // }
 
     a {
       border: none;
-      // display: inline-block;
+      display: block;
+      width: 100%;
 
       img {
         border: none;
