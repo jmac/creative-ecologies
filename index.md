@@ -22,19 +22,24 @@ follow_text: |-
 about_the_project_text: |-
   # About the project
 
-  Creative Ecologies is an initiative of Future Tense, delivered
-  in partnership with [Artlands Victoria](#), [RMIT University](#), [Ludowyk Evaluation](#)
-  and [Clear](#).
+  Creative Ecologies is an initiative of [Future Tense](http://futuretense.com.au/), delivered
+  in partnership with [Artlands Victoria](https://artlands.com.au/), [RMIT University](https://www.rmit.edu.au/), [Ludowyk Evaluation](http://ludowykevaluation.com/)
+  and [Clear](http://cleardesign.com.au/). Email [creative-ecologies@futuretense.com.au](mailto:creative-ecologies@futuretense.com.au) to contact the project.
 partners:
-- link: http://futuretense.com.au/
+- name: "Future Tense"
+  link: http://futuretense.com.au/
   image: "/uploads/FutureTense.png"
-- link: https://artlands.com.au/
+- name: "Artlands Victoria"
+  link: https://artlands.com.au/
   image: "/uploads/Artlands.png"
-- link: https://www.rmit.edu.au/
+- name: "RMIT"
+  link: https://www.rmit.edu.au/
   image: "/uploads/RMIT.png"
-- link: http://ludowykevaluation.com/
+- name: "Ludowyk Evaluation"
+  link: http://ludowykevaluation.com/
   image: "/uploads/Ludowyk.png"
-- link: http://cleardesign.com.au/
+- name: "Clear"
+  link: http://cleardesign.com.au/
   image: "/uploads/Clear.png"
 layout: home
 ---
