@@ -223,6 +223,49 @@ header {
   }
 }
 
+.newsletter {
+
+  form, input { 
+    font: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+  input {
+    border: 0;
+    border-bottom: 1px solid $green;
+  }
+
+  input[type=email] {
+    width: 100%;
+  }
+
+  ::placeholder {
+    color: inherit;
+    opacity: 1;
+  }
+  label {
+    display: none;
+  }
+
+  #mc_embed_signup input.mce_inline_error {
+    border-color: $green;
+  }
+
+  #mc_embed_signup div.mce_inline_error {
+    border:0;
+    background-color: transparent;
+    color: $green;
+    font: inherit;
+    padding:0;
+    margin: 0;
+  }
+
+  #mce-responses {
+    color: $green;
+  }
+}
+
 .partner-block {
   display: flex;
   justify-content: space-between;

@@ -21,6 +21,8 @@
   <div class="block double-bottom-margin">
     <div class="column narrow text-block">
         {{ page.follow_text | markdownify }}
+
+        {% include mailchimp.html %}
     </div>
     <div class="column narrow text-block">
         {{ page.about_the_project_text | markdownify }}
