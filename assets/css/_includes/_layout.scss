@@ -92,17 +92,6 @@ header {
     //   opacity: 0;
     // }
 
-    line-height: inherit;
-    color: $white;
-
-    &.off-white {
-      color: $green;
-    }
-
-    // transition: all 0.15s ease;
-
-    margin: 0;
-    padding: 0;
     background: 
       repeating-linear-gradient(
         to bottom,
@@ -113,6 +102,28 @@ header {
         $white 0.58em,
         $white 0.9em
       );
+
+    line-height: inherit;
+    color: $white;
+
+    &.off-white {
+      color: $green;
+    }
+
+    transition: all 0.15s ease;
+
+    margin: 0;
+    padding: 0;
+    // background: 
+    //   repeating-linear-gradient(
+    //     to bottom,
+    //     $white,
+    //     $white 0.54em,
+    //     $green 0.54em,
+    //     $green 0.58em,
+    //     $white 0.58em,
+    //     $white 0.9em
+    //   );
 
     &:after {
       content: "";
@@ -182,7 +193,7 @@ header {
 
 .text-block {
 
-  font-size: 18px;
+  font-size: 20px;
   line-height: inherit;
 
   @media (max-width: 800px) {
