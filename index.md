@@ -18,27 +18,27 @@ follow_text: |-
   # Follow Creative Ecologies
 
   Sign-up to get email updates about the project or follow development
-  [via Instagram](https://www.instagram.com/creativeecologies).
+  [via Instagram](https://www.instagram.com/creativeecologies){:target="_blank"}.
 about_the_project_text: |-
   # About the project
 
-  Creative Ecologies is an initiative of [Future Tense](http://futuretense.com.au/), delivered
-  in partnership with [Artlands Victoria](https://artlands.com.au/), [RMIT University](https://www.rmit.edu.au/), [Ludowyk Evaluation](http://ludowykevaluation.com/)
-  and [Clear](http://cleardesign.com.au/). Email [creative-ecologies@futuretense.com.au](mailto:creative-ecologies@futuretense.com.au) to contact the project.
+  Creative Ecologies is an initiative of [Future Tense](http://futuretense.com.au/){:target="_blank"}, delivered
+  in partnership with [Artlands Victoria](https://artlands.com.au/){:target="_blank"}, [RMIT University](https://www.rmit.edu.au/){:target="_blank"}, [Ludowyk Evaluation](http://ludowykevaluation.com/){:target="_blank"}
+  and [Clear](http://cleardesign.com.au/){:target="_blank"}. Email [creative-ecologies@futuretense.com.au](mailto:creative-ecologies@futuretense.com.au) to contact the project.
 partners:
-- name: "Future Tense"
+- name: Future Tense
   link: http://futuretense.com.au/
   image: "/uploads/FutureTense.png"
-- name: "Artlands Victoria"
+- name: Artlands Victoria
   link: https://artlands.com.au/
   image: "/uploads/Artlands.png"
-- name: "RMIT"
+- name: RMIT
   link: https://www.rmit.edu.au/
   image: "/uploads/RMIT.png"
-- name: "Ludowyk Evaluation"
+- name: Ludowyk Evaluation
   link: http://ludowykevaluation.com/
   image: "/uploads/Ludowyk.png"
-- name: "Clear"
+- name: Clear
   link: http://cleardesign.com.au/
   image: "/uploads/Clear.png"
 layout: home
