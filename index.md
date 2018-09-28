@@ -4,7 +4,7 @@ date: 2018-07-10 05:22:00 Z
 what_this_is_text: |-
   # What this is about
 
-  Creative Ecologies is a collaborative investigation into what makes Australia’s creative landscapes tick. The aim is to understand what it takes to build thriving creative communities and then develop tools to foster their growth. The first stage was a survey of cultural practitioners and policymakers from across Australia. The findings will be presented and discussed at [Artlands Victoria](https://artlands.com.au/){:target="_blank"} in October 2018.
+  Creative Ecologies is a collaborative investigation into what makes Australia’s creative landscapes tick. The aim is to understand what it takes to build thriving creative communities and then develop tools to foster their growth. The first stage was a survey of cultural practitioners and policymakers from across Australia. The findings will be presented and discussed at [Artlands Victoria](https://artlands.com.au/) in October 2018.
 understanding_text: |-
   # Understanding creative environments
 
