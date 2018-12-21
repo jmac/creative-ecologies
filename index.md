@@ -1,8 +1,8 @@
 ---
 title: Home
 date: 2018-07-10 05:22:00 Z
-main_link_url: https://goo.gl/forms/Klx9LNbevofT9Xtk1
-main_link_text: "**Add your** *view*"
+main_link_url: "/uploads/Creative-Ecologies_Findings-Report.pdf"
+main_link_text: "**Read our** *report*"
 what_this_is_text: |-
   # What this is about
 
